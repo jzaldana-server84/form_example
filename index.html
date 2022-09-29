@@ -9,12 +9,27 @@
 </head>
 <body>
     <div class="content">
-        <div class="left">
-            <!-- <img src="/images/background.jpg" alt="fondo" class="fondo"> -->
-            <p>Texto de Prueba</p>
-        </div>
-        <div class="right">
-            <p>Texto de Prueba</p>
+        <div class="form_part">
+            <form>
+                <fieldset>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Tell me your name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Tell me your last name">
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="youremail@yourdomain.com">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="####-####">
+                </fieldset>
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input type="password" id="pwd" name="pwd" placeholder="Enter your password">
+                    <label for="confirm_psw">Confirm Password</label>
+                    <input type="password" id="confirm_pwd" name="confirm_pwd" placeholder="Confirm your password">
+                </fieldset>
+            </form>
         </div>
     </div>
 </body>
