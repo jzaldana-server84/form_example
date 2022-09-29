@@ -1,0 +1,14 @@
+
+.content {
+    display: flex;
+}
+
+.left {
+    height: 100vh;
+    border: solid 1px black;
+}
+
+.right {
+    height: 100vh;
+    border: solid 1px black;
+}
