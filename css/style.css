@@ -1,14 +1,48 @@
-
+:root {
+    --color-error-text: red;
+    --modal-border: 1px solid black;
+    --modal-font-size: calc(2rem + 5vw);
+}
 .content {
     display: flex;
 }
 
-.left {
-    height: 100vh;
-    border: solid 1px black;
+/* Form part */
+
+form {
+    display: flex;
 }
 
-.right {
-    height: 100vh;
-    border: solid 1px black;
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    min-width: 200px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border: solid 1px #999;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    margin-top: 30px;
+    background-color: #6945ec;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
 }
