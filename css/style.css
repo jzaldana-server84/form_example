@@ -1,10 +1,18 @@
 :root {
-    --color-error-text: red;
-    --modal-border: 1px solid black;
-    --modal-font-size: calc(2rem + 5vw);
+    --input-background: #6945ec;
+    --input-background-hover: #F082AC;
 }
+
 .content {
     display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.form_text {
+    line-height: 1.5;
+    max-width: 500px;
+    margin: 10px 10px;
 }
 
 /* Form part */
@@ -34,7 +42,7 @@ input {
 
 input[type="button"] {
     margin-top: 30px;
-    background-color: #6945ec;
+    background-color: var(--input-background);
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -44,5 +52,5 @@ input[type="button"] {
 
 .button-1:hover,
 .button-1:focus {
-  background-color: #F082AC;
+  background-color: var(--input-background-hover);
 }
